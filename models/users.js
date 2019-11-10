@@ -8,7 +8,7 @@ const User = sequelize.define('user', {
   updatedAt: {type: Sequelize.DATE, field: 'updated_at'},
   deleteAt: {type: Sequelize.DATE, field: 'deleted_at'},
   name: {type: Sequelize.STRING},
-  pass: {type: Sequelize.STRING, fiels: 'hash_pass'}
+  pass: {type: Sequelize.STRING, field: 'hash_pass'}
 })
 
 module.exports = User;
